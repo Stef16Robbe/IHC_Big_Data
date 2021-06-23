@@ -1,0 +1,25 @@
+.table_content {
+	height: 750px;
+	overflow-y: auto;
+	overflow-x: unset;
+}
+
+.duo_graph2 {
+	width: 65%;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}

@@ -1,0 +1,66 @@
+d_tables:
+   5_raw_spend_data_logistics_suppliers_final.csv:
+   - column: Supplier Name
+     dtype: categorical
+   - column: Product Group
+     dtype: categorical
+   - column: SUPPLIER_ID
+     dtype: int32
+   - column: Net amount Eur
+     dtype: float32
+   - column: COUNT_OF_INVOICES
+     dtype: int32
+   - column: IHC Company
+     dtype: categorical
+   - column: Year
+     dtype: int32
+   - column: Month.
+     dtype: int32
+
+   7_raw_all_shipment_lines.csv:
+   - column: Shipment Id
+     dtype: int32
+   - column: Delivery Terms
+     dtype: categorical
+   - column: Shipper Address1
+     dtype: categorical
+   - column: Shipper City
+     dtype: categorical
+   - column: Customer City
+     dtype: string
+   - column: Shipper Country
+     dtype: categorical
+   - column: Customer Country
+     dtype: categorical
+   - column: Ship Date
+     dtype: datetime
+   - column: Shipper Name
+     dtype: categorical
+   - column: Forward Agent Id
+     dtype: int32
+   - column: Company
+     dtype: categorical
+   - column: Created Date
+     dtype: datetime
+   - column: Order No
+     dtype: string
+   - column: Quantity
+     dtype: float32
+   - column: Width
+     dtype: float32
+   - column: Height
+     dtype: float32
+   - column: Depth
+     dtype: float32
+   - column: Uom For Length
+     dtype: categorical
+   - column: Uom For Weight
+     dtype: categorical
+   - column: Uom For Volume
+     dtype: categorical
+   - column: Airway Bill No
+     dtype: string
+   - column: Manual Gross Weight
+     dtype: float32
+   - column: State
+     dtype: categorical
